@@ -1,0 +1,36 @@
+.contenedor{
+    display: flex;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color:black;
+}
+
+.encabezado{
+    text-align: center;
+    color: black;
+    width: 100%;;
+}
+
+.img{
+    text-align: center;
+    border-color: black;
+    border-width: 20px;
+    background-color: black;
+    margin: 10px;
+    filter: grayscale(100%);
+    padding: 5px;
+}
+
+.img:hover{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    filter: grayscale(0%);
+}
+
